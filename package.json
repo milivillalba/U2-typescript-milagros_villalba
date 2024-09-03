@@ -1,0 +1,22 @@
+{
+  "name": "u2-typescript-milagros_villalba",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000U\u00002\u0000-\u0000t\u0000y\u0000p\u0000e\u0000s\u0000c\u0000r\u0000i\u0000p\u0000t\u0000-\u0000m\u0000i\u0000l\u0000a\u0000g\u0000r\u0000o\u0000s\u0000_\u0000v\u0000i\u0000l\u0000l\u0000a\u0000l\u0000b\u0000a\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "rimraf ./dist && tsc",
+    "start": "npm run build && node dist/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.5.2",
+    "nodemon": "^3.1.4",
+    "rimraf": "^6.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
